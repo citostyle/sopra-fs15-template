@@ -10,6 +10,6 @@ public class IndexController {
 	@RequestMapping(value="/")
 	@ResponseBody
 	public String index() {
-		return "SoPra 2015 ... live from Zurich!";
+		return "SoPra 2015 ... live from Zurich with Codeship!";
 	}
 }
